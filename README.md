@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -97,3 +98,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web. And also the best place to build, deploy, and host your Gatsby sites.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+=======
+# Dev-help-UoV
+Developer Road map for UoV Students
+>>>>>>> origin/main
