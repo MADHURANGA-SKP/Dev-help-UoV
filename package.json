@@ -5,7 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/montserrat-alternates": "^4.5.11",
+    "@heroicons/react": "^2.0.17",
     "gatsby": "^5.9.0",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-sharp": "^5.9.0",
@@ -15,7 +18,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.7"
+    "autoprefixer": "^10.4.14",
+    "gatsby-plugin-postcss": "^6.9.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1"
   },
   "keywords": [
     "gatsby"

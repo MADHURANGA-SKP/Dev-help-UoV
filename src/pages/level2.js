@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 
-const About = () => {
+const Level2 = () => {
   return (
     <Layout>
       <div className="text-4xl">
@@ -11,4 +11,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Level2
