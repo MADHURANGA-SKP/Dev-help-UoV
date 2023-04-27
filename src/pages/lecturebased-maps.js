@@ -40,6 +40,168 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="container mx-auto mb-12 ">
+          <div className="flex py-5 justify-center containr">
+            <div className="flex  font-semibold">
+              <div className="py-2  border-black border-2 rounded-lg px-3">
+                Levels
+              </div>
+            </div>
+          </div>
+          <div className="justify-center pl-28 font-semibold">
+            <div className="grid grid-cols-4 gap-x-18 ">
+              <div>
+                <div className="flex">
+                  <div className="py-2  border-black border-2 rounded-lg px-3">
+                    Level 1
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="py-5 ">
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1152
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1142
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1134
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1123
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1114
+                    </div>
+                  </div>
+                  <div className="p-5">
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1252
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1242
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1234
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1213
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 1222
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="flex">
+                  <div className="py-2 mt-1 mr-2 border-black border-2 rounded-lg px-3">
+                    Level 2
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="py-5">
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2113
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2153
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2142
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2142
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2134
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2143
+                    </div>
+                  </div>
+                  <div className="p-5">
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2233
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2212
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2223
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2222
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2213
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2242
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2244
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 2262
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="flex">
+                  <div className="py-2 mt-1 mr-2 border-black border-2 rounded-lg px-3">
+                    Level 3
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="py-5">
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3112
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3162
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3153
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3142
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3132
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3123
+                    </div>
+                    <div className="py-2 mt-10 cursor-pointer hover:text-white hover:bg-black transition duration-300 mr-5 border-black border-2 rounded-lg px-3">
+                      TICT 3113
+                    </div>
+                  </div>
+                  <div className="py-5">
+                    <div className="py-3 mt-10  border-[#4D4D4D]/50 border-2 rounded-lg px-3">
+                      Comming Soon
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="flex">
+                  <div className="py-2 mt-1 mr-2 border-black border-2 rounded-lg px-3">
+                    Level 4
+                  </div>
+                </div>
+                <div className="flex py-5">
+                  <divc className="py-3 mt-10 border-[#4D4D4D]/50 border-2 rounded-lg px-3">
+                    Comming Soon
+                  </divc>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }

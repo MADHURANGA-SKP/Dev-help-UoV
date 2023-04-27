@@ -26,10 +26,12 @@ const Header = ({ isLoggedIn, onLogout }) => {
           Dev.Help.UoV
         </div>
         <div className="flex justify-center p-4 gap-12 ">
-          <Link to="/home">
+          <Link to="/index">
             <div className="cursor-pointer font-semibold">Home</div>
           </Link>
-          <div className="cursor-pointer font-semibold">About</div>
+          <Link to="/about">
+            <div className="cursor-pointer font-semibold">About</div>
+          </Link>
           <div className="relative inline-block text-left">
             <div
               className="flex items-center cursor-pointer"
