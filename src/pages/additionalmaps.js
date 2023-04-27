@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
-const Home = () => {
+const Additionalmaps = () => {
   return (
     <Layout>
       <section>
@@ -73,4 +73,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Additionalmaps

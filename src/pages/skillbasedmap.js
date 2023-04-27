@@ -1,8 +1,9 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
-const Home = () => {
+const Skillbased = () => {
   return (
     <Layout>
       <section>
@@ -37,28 +38,30 @@ const Home = () => {
 
               <div className="p-20">
                 <div className="grid grid-cols-2 gap-x-10 gap-y-10 ">
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
-                    {" "}
-                    <div>
-                      <StaticImage
-                        src="../images/skilbased/react.png"
-                        alt="react"
-                        y
-                        className="w-[200px] h-[200px] object-center mt-3"
-                      />
-                    </div>{" "}
-                    <div>
-                      <div className="border-b border-[#4D4D4D]/50 font-semibold text-xl text-[#CD4636] ">
-                        react
-                      </div>
-                      <div className="p-5 font-semibold">
-                        React is a free and open-source front-end JavaScript
-                        library for building user interfaces based on
-                        components.
+                  <Link to="/reactmap">
+                    <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
+                      {" "}
+                      <div>
+                        <StaticImage
+                          src="../images/skilbased/react.png"
+                          alt="react"
+                          y
+                          className="w-[200px] h-[200px] object-center mt-5 mb-5"
+                        />
+                      </div>{" "}
+                      <div>
+                        <div className="border-b border-[#4D4D4D]/50 font-semibold text-xl text-[#CD4636] ">
+                          react
+                        </div>
+                        <div className="p-5 font-semibold">
+                          React is a free and open-source front-end JavaScript
+                          library for building user interfaces based on
+                          components.
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  </Link>
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -79,7 +82,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -100,7 +103,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -121,7 +124,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -142,7 +145,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -163,7 +166,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -185,7 +188,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -206,7 +209,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                  <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                     {" "}
                     <div>
                       <StaticImage
@@ -239,4 +242,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Skillbased

@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 
-const Home = () => {
+const Index = () => {
   return (
     <Layout>
       <section>
@@ -87,11 +87,13 @@ const Home = () => {
             <div className="text-center pt-5 text-xl text-[#4D4D4D]/50">
               If you want to Explore Click here
             </div>
-            <div className="flex justify-center p-5 pb-10">
-              <button className=" border-2 text-center bg-white text-black  hover:text-white hover:bg-[black] border-black transition duration-300 p-4 px-6 rounded-lg shadow-md  font-semibold">
-                Click Here
-              </button>
-            </div>
+            <Link to="/additionalmaps">
+              <div className="flex justify-center p-5 pb-10">
+                <button className=" border-2 text-center bg-white text-black  hover:text-white hover:bg-[black] border-black transition duration-300 p-4 px-6 rounded-lg shadow-md  font-semibold">
+                  Click Here
+                </button>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -99,4 +101,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Index

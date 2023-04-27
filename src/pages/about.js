@@ -28,7 +28,7 @@ const About = () => {
               <div className="text-4xl font-semibold mt-10 ">
                 Devloper Road-Map from Gatsby
               </div>
-              <div className="p-10 ">
+              <div className="p-10 text-[#4D4D4D]/50 ">
                 Gatsby is a free, open-source, React-based framework designed to
                 help developers build performant websites and apps. Put simply,
                 Gatsby is a static site generator that leverages React.

@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Home = () => {
+const Rolebasedmap = () => {
   return (
     <Layout>
       <section>
@@ -38,7 +38,7 @@ const Home = () => {
               <div>
                 <div className="p-20">
                   <div className="grid grid-cols-2 gap-x-10 gap-y-10  ">
-                    <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer">
+                    <div className="border-black border-2 grid grid-cols-2 p-5 rounded-lg cursor-pointer shadow-lg">
                       {" "}
                       <div>
                         <StaticImage
@@ -61,7 +61,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="border-black/50 border-2 grid grid-cols-2 p-5 rounded-lg">
+                    <div className="border-black/50 border-2 grid grid-cols-2 p-5 rounded-lg shadow-lg">
                       {" "}
                       <div>
                         <StaticImage
@@ -78,7 +78,7 @@ const Home = () => {
                         <div className="p-5 font-semibold">Coming Soon</div>
                       </div>
                     </div>
-                    <div className="border-black/50 border-2 grid grid-cols-2 p-5 rounded-lg">
+                    <div className="border-black/50 border-2 grid grid-cols-2 p-5 rounded-lg shadow-lg">
                       {" "}
                       <div>
                         <StaticImage
@@ -220,4 +220,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Rolebasedmap
